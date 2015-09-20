@@ -18,5 +18,8 @@
     "streaming"
   ],
   "author": "Matt Winchester",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "stream-tweets": "^1.0.0"
+  }
 }
