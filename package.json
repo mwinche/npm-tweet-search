@@ -1,0 +1,22 @@
+{
+  "name": "mwinche-twitter-fetch",
+  "version": "1.0.0",
+  "description": "Used to fetch data from twitter with given api creds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mwinche",
+    "utahjs",
+    "npm",
+    "whatisnpm",
+    "twitter",
+    "tweet",
+    "tweets",
+    "stream",
+    "streaming"
+  ],
+  "author": "Matt Winchester",
+  "license": "MIT"
+}
