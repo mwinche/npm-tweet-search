@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mwinche/npm-tweet-page.git"
+    "url": "git+ssh://git@github.com/mwinche/npm-tweet-search.git"
   },
   "files": [
     "index.js"
