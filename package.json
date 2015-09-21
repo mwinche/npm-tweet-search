@@ -1,12 +1,19 @@
 {
-  "name": "mwinche-twitter-fetch",
+  "name": "npm-tweet-search",
   "version": "1.0.0",
-  "description": "Used to fetch data from twitter with given api creds",
+  "description": "Used to fetch data from twitter with given api credentials",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tokens": "node ./request-tokens.js"
   },
-  "files": [ "index.js" ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwinche/npm-tweet-page.git"
+  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "mwinche",
     "utahjs",
@@ -22,5 +29,9 @@
   "license": "MIT",
   "dependencies": {
     "twit": "^2.1.0"
+  },
+  "devDependencies": {
+    "lodash": "3.10.1",
+    "prompt": "0.2.14"
   }
 }
