@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [ "index.js" ],
   "keywords": [
     "mwinche",
     "utahjs",
@@ -20,6 +21,6 @@
   "author": "Matt Winchester",
   "license": "MIT",
   "dependencies": {
-    "stream-tweets": "^1.0.0"
+    "twit": "^2.1.0"
   }
 }
