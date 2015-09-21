@@ -19,6 +19,7 @@ function run(hashtag, callback){
   tweets.get('search/tweets', { q: hashtag }, function(err, data, response) {
     if(data && data.statuses){
       data.statuses
+        .reverse()
         .map(formatTweet)
         .forEach(callback);
     }
